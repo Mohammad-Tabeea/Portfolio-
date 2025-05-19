@@ -13,8 +13,8 @@ const Hero = () => {
                     <motion.img
                         initial={{ scale: 0 }}
                         animate={{ scale: 1.2 }}
-                         transition={{ duration: 4, /*type:"spring" , stiffness: 100 */}}
-                        className="avatar" src="./mohammad-modified.png" alt="" />
+                        transition={{ duration: 4, /*type:"spring" , stiffness: 100 */ }}
+                        className="avatar" src=".photo_2025-05-19_21-44-18-removebg-preview.png" alt="" />
                     <motion.div
                         initial={{ scale: 0 }}
                         animate={{ scale: 1 }}
@@ -31,10 +31,9 @@ const Hero = () => {
                     animate={{ scale: 1 }}
                     transition={{ duration: 4 }} className="sub-title">I am Mohammad Tabeeh, a graduate of Damascus University, Faculty of Information Engineering. I work as a website developer and live in Damascus</motion.p>
                 <div className="all-icons flex">
-                    <div className=" icon icon-twitter"></div>
-                    <div className=" icon icon-github"></div>
-                    <div className=" icon icon-instagram"></div>
-                    <div className=" icon icon-linkedin-square"></div>
+                    <a className=" icon icon-linkedin-square" href="https://www.linkedin.com/in/mohammad-tabeea-0390801a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></a>
+                    <a className=" icon icon-github" href="https://github.com/Mohammad-Tabeea?tab=repositories"></a>
+                    <a  className=" icon icon-instagram" href="https://www.instagram.com/mohammadtabeea?igsh=MXBhd2NvZmU3Y2JmNg=="></a>
                 </div>
             </div>
             <div className="right-section animation ">
