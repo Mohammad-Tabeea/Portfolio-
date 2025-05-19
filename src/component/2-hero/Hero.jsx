@@ -14,7 +14,7 @@ const Hero = () => {
                         initial={{ scale: 0 }}
                         animate={{ scale: 1.2 }}
                         transition={{ duration: 4, /*type:"spring" , stiffness: 100 */ }}
-                        className="avatar" src=".photo_2025-05-19_21-44-18-removebg-preview.png" alt="" />
+                        className="avatar" src="./photo_2025-05-19_21-44-18-removebg-preview.png" alt="" />
                     <motion.div
                         initial={{ scale: 0 }}
                         animate={{ scale: 1 }}
